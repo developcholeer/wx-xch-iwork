@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "share":"/components/share/index",
+    "van-button": "/miniprogram_npm/vant-weapp/button/index"
+  }
+}

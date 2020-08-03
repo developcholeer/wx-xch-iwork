@@ -1,0 +1,17 @@
+<!-- pages/index/index.wxml -->
+<view class="contianer" style="height:{{height}}px">
+	<view class="top-bg"></view>
+	<view class="mid-box">
+		<view class="user-box">
+			<view class="user-icon">L C</view>
+			<view class="user-name">{{userInfo.name}}</view>
+			<view class="user-worker">{{userInfo.worker}}</view>
+		</view>
+	</view>
+   <share
+	id="share"
+	name="我要"
+	bind:getNameHand="getNameHand"
+	></share>
+	<vant-button>vant按钮</vant-button>
+</view>

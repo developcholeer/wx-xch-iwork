@@ -1,0 +1,5 @@
+/* components/share/index.wxss */
+.share{
+   color: #666666;
+   font-size: 32rpx;
+}
