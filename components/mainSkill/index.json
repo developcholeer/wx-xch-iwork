@@ -1,0 +1,6 @@
+{
+   "component": true,
+   "usingComponents": {
+      "van-progress": "/miniprogram_npm/vant-weapp/progress/index"
+   }
+}

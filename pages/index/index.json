@@ -1,6 +1,9 @@
 {
   "usingComponents": {
-    "share":"/components/share/index",
-    "van-button": "/miniprogram_npm/vant-weapp/button/index"
+    "baseInfo":"/components/baseInfo/index",
+    "educAtion":"/components/educAtion/index",
+    "mainSkill":"/components/mainSkill/index",
+    "van-collapse": "/miniprogram_npm/vant-weapp/collapse/index",
+    "van-collapse-item": "/miniprogram_npm/vant-weapp/collapse-item/index"
   }
 }

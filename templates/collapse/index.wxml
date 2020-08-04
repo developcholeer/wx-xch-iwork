@@ -1,0 +1,13 @@
+<!-- 折叠组件功能模板，实现自定义组件动态加载 -->
+<!-- 基本信息模板 -->
+<template name="baseInfo">
+	<baseInfo></baseInfo>
+</template>
+<!-- 主要技能 -->
+<template name="mainSkill">
+	<mainSkill></mainSkill>
+</template>
+<!-- 教育经历 -->
+<template name="educAtion">
+	<educAtion></educAtion>
+</template>

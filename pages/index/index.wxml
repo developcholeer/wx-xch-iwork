@@ -1,17 +1,28 @@
 <!-- pages/index/index.wxml -->
+<import src="../../templates/collapse/index.wxml" />
 <view class="contianer" style="height:{{height}}px">
 	<view class="top-bg"></view>
-	<view class="mid-box">
-		<view class="user-box">
-			<view class="user-icon">L C</view>
-			<view class="user-name">{{userInfo.name}}</view>
-			<view class="user-worker">{{userInfo.worker}}</view>
+	<view class="main-box">
+		<view class="main-content">
+			<view class="user-box">
+				<view class="user-icon">{{userInfo.spell}}</view>
+				<view class="user-name">{{userInfo.name}}</view>
+				<view class="user-worker">{{userInfo.worker}}</view>
+			</view>
+			<view class="collapse-box">
+				<van-collapse bind:change="collChange" value="{{activeName}}" accordion>
+					<van-collapse-item wx:for="{{collItems}}" wx:for-index="id" wx:key="title" title="{{item.title}}" name="{{item.name}}">
+						<!-- 使用模板 -->
+						<template is="{{item.name}}"></template>
+					</van-collapse-item>
+				</van-collapse>
+			</view>
 		</view>
 	</view>
-   <share
+	<!-- 组件share 选在本路径json文件引入-->
+	<!-- <share
 	id="share"
 	name="我要"
 	bind:getNameHand="getNameHand"
-	></share>
-	<vant-button>vant按钮</vant-button>
+	></share> -->
 </view>

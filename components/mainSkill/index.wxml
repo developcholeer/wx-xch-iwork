@@ -1,0 +1,13 @@
+<!--components/mainSkill/index.wxml-->
+<view class="skill">
+   <view class="legend">
+	      <view class="legend-item" wx:for="{{legend}}" wx:for-item="leg" wx:key="text" wx:key="text">
+			      <view class="lengend-rect" style="background-color:{{leg.color}}"></view>
+					<view class="lengend-text">{{leg.text}}</view>
+			</view>
+	</view>
+	<view wx:for="{{list}}" wx:key="name" class="skill-item">
+		<van-progress  stroke-width="8" color="{{item.color}}" show-pivot="{{false}}" percentage="{{item.value}}"></van-progress>
+      <view class="skill-text">{{item.name}}</view>
+	</view>
+</view>

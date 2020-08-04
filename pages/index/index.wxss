@@ -3,23 +3,23 @@ page {
    /* color: #333; */
    /* background-color: #fff; */
 }
-
+/* 页面容器样式 */
 .contianer {
    width: 100%;
    height: 100%;
-   background-color: rgba(169, 169, 169, 0.1);
+   background-color:#f7f7f7;
    font-size: 24rpx;
    color: #666666;
    font-family: Arial, Helvetica, sans-serif;
 }
-
+/* 顶部背景样式 */
 .top-bg {
    width: 100%;
    height: 400rpx;
-   background-color: dodgerblue;
+   background-color: #1890ff;
 }
 
-.mid-box {
+.main-box {
    background-color: #fff;
    position: relative;
    top: -200rpx;
@@ -29,16 +29,16 @@ page {
    padding: 0;
    text-align: center;
 }
-.user-box {
+.main-content {
    position: relative;
    top: -100rpx;
 }
-
+/* 顶部用户头像、名称样式 */
 .user-icon {
    width: 200rpx;
    height: 200rpx;
    border-radius: 100%;
-   background-color: dodgerblue;
+   background-color: #1890ff;
    border: solid 1px #fff;
    margin: 0 auto;
    color: #fff;
@@ -54,8 +54,12 @@ page {
 
 .user-worker {
    display: inline-block;
-   background-color: darkgray;
+   background-color: #90a4ae;
    color: #fff;
    padding: 8rpx;
    margin: 10rpx 0;
+}
+/* 折叠面板全局样式 */
+.collapse-box{
+   text-align: left;
 }
