@@ -12,7 +12,16 @@ App({
          name: "mainSkill"
       }, {
          title: "教育经历",
-         name: "educAtion"
+         name: "educateExp"
+      }, {
+         title: "工作经历",
+         name: "workProg"
+      }, {
+         title: "项目经验",
+         name: "projectExp"
+      }, {
+         title: "自我评价",
+         name: "selfComit"
       }]
    }
 })

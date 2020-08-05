@@ -1,1 +1,15 @@
 /* components/baseInfo/index.wxss */
+.info-item{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 24rpx;
+   border-bottom: solid 2rpx #eeeeee;
+   line-height: 48rpx;
+}
+.title{
+   color: #666;
+}
+.value{
+   font-family: sans-serif;
+}

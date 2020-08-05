@@ -1,4 +1,4 @@
-// components/baseInfo/index.js
+// components/workProg/index.js
 Component({
    /**
     * 组件的属性列表

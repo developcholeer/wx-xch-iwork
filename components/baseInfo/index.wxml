@@ -1,2 +1,7 @@
 <!--components/baseInfo/index.wxml-->
-<text>components/baseInfo/index.wxml</text>
+<view class="baseInfo">
+   <view class="info-item" wx:for="{{baseInfo}}" wx:key="title">
+      <view class="title">{{item.title}}</view>
+      <view class="value">{{item.value}}</view>
+   </view>
+</view>

@@ -8,6 +8,18 @@
 	<mainSkill></mainSkill>
 </template>
 <!-- 教育经历 -->
-<template name="educAtion">
-	<educAtion></educAtion>
+<template name="educateExp">
+	<educateExp></educateExp>
+</template>
+<!-- 工作经历 -->
+<template name="workProg">
+	<workProg></workProg>
+</template>
+<!-- 项目经验 -->
+<template name="projectExp">
+	<projectExp></projectExp>
+</template>
+<!-- 自我评价 -->
+<template name="selfComit">
+	<selfComit></selfComit>
 </template>

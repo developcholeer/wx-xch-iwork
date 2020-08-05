@@ -1,0 +1,35 @@
+/* components/baseInfo/index.wxss */
+.education {
+   /* border-bottom: dashed 1px #999; */
+   /* padding: 10px 0; */
+   font-size: 24rpx;
+}
+.school{
+   color: #666;
+}
+.icon-school {
+   width: 48rpx;
+   height: 48rpx;
+   vertical-align: -12rpx;
+   margin-right: 10rpx;
+}
+.icon-book{
+   width: 32rpx;
+   height: 32rpx;
+   vertical-align: -4rpx;
+   margin-right: 6rpx;
+ }
+ .icon-calendar{
+   width: 32rpx;
+   height: 32rpx;
+   vertical-align: -4rpx;
+   margin-right: 6rpx;
+ }
+.row {
+   display: flex;
+   justify-content: space-between;
+   padding:16rpx 0 0 0;
+}
+.desc {
+
+}

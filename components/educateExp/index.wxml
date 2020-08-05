@@ -1,0 +1,18 @@
+<!--components/baseInfo/index.wxml-->
+<view class="education" wx:for="{{education}}" wx:key="item">
+	<view class="school">
+		<image src="../../img/icon_school.png" class="icon-school"></image>
+		<text>{{item.school}}</text>
+	</view>
+	<view class="row">
+		<view class="info">
+			<image src="../../img/icon_book.png" class="icon-book"></image>
+			<text>{{item.major}}</text>
+		</view>
+		<view class="info">
+			<image src="../../img/icon_calendar.png" class="icon-calendar"></image>
+			<text>{{item.year}}</text>
+		</view>
+	</view>
+	<rich-text class="desc">{{item.desc}}</rich-text>
+</view>

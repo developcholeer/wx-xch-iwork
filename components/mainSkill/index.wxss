@@ -5,8 +5,8 @@
 /* 图例样式 */
 .legend {
    display: flex;
-   justify-content: center;
-   align-items: center;
+   /* justify-content: center; */
+   /* align-items: center; */
    padding-bottom: 16rpx;
 }
 
