@@ -1,3 +1,12 @@
 {
-  "usingComponents": {}
+  "usingComponents": {   
+     "baseInfo":"/components/baseInfo/index",
+    "educateExp":"/components/educateExp/index",
+    "mainSkill":"/components/mainSkill/index",
+    "workExp":"/components/workExp/index",
+    "projectExp":"/components/projectExp/index",
+    "selfComit":"/components/selfComit/index",
+    "van-cell": "/miniprogram_npm/vant-weapp/cell/index",
+    "van-collapse": "/miniprogram_npm/vant-weapp/collapse/index",
+    "van-collapse-item": "/miniprogram_npm/vant-weapp/collapse-item/index"}
 }

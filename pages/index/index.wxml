@@ -10,6 +10,7 @@
 				<view class="user-worker">{{userInfo.worker}}</view>
 			</view>
 			<view class="collapse-box">
+			   <van-cell title="简历总览" is-link url="../work/index" />
 				<van-collapse bind:change="collChange" value="{{activeName}}" accordion>
 					<van-collapse-item wx:for="{{collItems}}" wx:for-index="id" wx:key="title" title="{{item.title}}" name="{{item.name}}">
 						<!-- 使用模板 -->

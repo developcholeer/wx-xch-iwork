@@ -7,7 +7,7 @@
 			</view>
 	</view>
 	<view wx:for="{{list}}" wx:key="name" class="skill-item">
+	   <view class="skill-text">{{item.name}}</view>
 		<van-progress  stroke-width="8" color="{{item.color}}" show-pivot="{{false}}" percentage="{{item.value}}"></van-progress>
-      <view class="skill-text">{{item.name}}</view>
 	</view>
 </view>

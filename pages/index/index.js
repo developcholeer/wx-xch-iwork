@@ -22,7 +22,7 @@ Page({
     */
    onLoad: function (options) {
       //本地测试直接获取后台数据
-      //this.getData();
+      // this.getData();
    },
    /**
     * 生命周期函数--监听页面初次渲染完成
@@ -84,15 +84,24 @@ Page({
     */
    getData: function () {
       wx.request({
-         url: 'http://v.juhe.cn/toutiao/index',
-         data: {
-            type: "top",
-            key: "fe7145b5b0c3868c9d6f276b69146971"
+         // url: 'http://v.juhe.cn/toutiao/index',
+         // data: {
+         //    type: "top",
+         //    key: "fe7145b5b0c3868c9d6f276b69146971"
+         // },
+         
+         url: 'https://api.weixin.qq.com/cgi-bin/token',
+         data:{
+            grant_type:"client_credential",
+            appid:"wxba55df6193512552",
+            secret:"e248d25688049535e642af2dd6c19d02",
          },
          dataType: 'json',
          method: 'GET',
          success: function (res) {
             console.log(res);
+            // POST https://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token=ACCESS_TOKEN
+            // https://blog.csdn.net/qq_41473887/article/details/81335977
          }
       })
    },

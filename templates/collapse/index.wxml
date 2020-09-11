@@ -12,8 +12,8 @@
 	<educateExp></educateExp>
 </template>
 <!-- 工作经历 -->
-<template name="workProg">
-	<workProg></workProg>
+<template name="workExp">
+	<workExp></workExp>
 </template>
 <!-- 项目经验 -->
 <template name="projectExp">

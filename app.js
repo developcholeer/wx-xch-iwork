@@ -3,7 +3,7 @@ App({
    //简历page扩展组件参数配置
    collCfg: {
       accordion: true, //只打开一个
-      activeName: "baseInfo", //默认打开项
+      activeName: "", //默认打开项
       collItems: [{
          title: "基本信息",
          name: "baseInfo"
@@ -15,7 +15,7 @@ App({
          name: "educateExp"
       }, {
          title: "工作经历",
-         name: "workProg"
+         name: "workExp"
       }, {
          title: "项目经验",
          name: "projectExp"

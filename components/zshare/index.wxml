@@ -1,5 +1,0 @@
-<!--components/share/index.wxml-->
-<view class="share">
-   <view bindtap="getName">{{text}}</view>
-   <text>{{name}}</text>
-</view>
