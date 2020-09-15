@@ -1,2 +1,27 @@
 <!--components/projectExp/index.wxml-->
-<text>components/projectExp/index.wxml</text>
+<view class="project-list" wx:for="{{projectData}}" wx:key="item">
+	<view class="project-name">
+		<image src="../../img/icon_computer.png" class="icon-computer"></image>
+		<text class="computer">{{item.name}}</text>
+		<text>{{item.date}}</text>
+	</view>
+	<view class="project-desc">
+		<view class="label">项目描述：</view>
+		<view class="desc">
+			<text>{{item.desc}}</text>
+		</view>
+	</view>
+	<view class="project-desc">
+		<text wx:if="item.skill"></text>
+	</view>
+	<view class="project-desc">
+		<view class="label">责任描述：</view>
+		<view class="desc">
+			<view wx:for="{{item.duty}}" wx:for-item="duty" wx:for-index="idx" wx:key="idx">
+				{{(idx+1)+'.'+duty.content}}
+			</view>
+		</view>
+	</view>
+	<view>
+	</view>
+</view>

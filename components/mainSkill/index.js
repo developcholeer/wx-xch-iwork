@@ -4,10 +4,6 @@ Component({
     * 组件的属性列表
     */
    properties: {
-      // list: {
-      //    type: Array,
-      //    value: []
-      // }
    },
 
    /**
@@ -16,23 +12,23 @@ Component({
    data: {
       list: [{
          value: 95,
-         name: "JavaScript/ES5/ES6",
+         name: "JavaScript/ES6/Scss",
          color: "#1890ff",
       }, {
          value: 95,
-         name: "HTML5/CSS3",
+         name: "HTML5/CSS3/Jquery",
          color: "#1890ff",
       }, {
          value: 90,
-         name: "Ant/Vant/Echart",
+         name: "Ant/Vant/Echart/Element",
          color: "#1890ff",
       }, {
          value: 80,
-         name: "Webpack/Vue/Uniapp",
+         name: "Vue/Uniapp/Webpack",
          color: "#40a9ff",
       }, {
          value: 60,
-         name: "React/Node",
+         name: "Node/MySql",
          color: "#69c0ff",
       }],
       legend: [{

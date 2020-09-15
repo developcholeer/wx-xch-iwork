@@ -23,3 +23,7 @@
 <template name="selfComit">
 	<selfComit></selfComit>
 </template>
+<!-- 专业技能 -->
+<template name="zySkill">
+	<zySkill></zySkill>
+</template>

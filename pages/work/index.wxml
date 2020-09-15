@@ -1,5 +1,5 @@
 <import src="../../templates/collapse/index.wxml" />
-<view class="work">
+<view class="page-work">
 	<view class="page-title">李超前端开发工程师简历</view>
 	<view class="section" wx:for="{{collItems}}" wx:key="title">
 		<view class="section-info">
@@ -8,8 +8,7 @@
 		</view>
 		<!-- 使用模板 -->
 		<view class="temp-contian">
-		<template is="{{item.name}}"></template>
-
+			<template is="{{item.name}}"></template>
 		</view>
 	</view>
 </view>

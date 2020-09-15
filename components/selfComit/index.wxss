@@ -1,1 +1,5 @@
 /* components/selfComit/index.wxss */
+.self{
+   color: #666;
+   font-size: 24rpx;
+}

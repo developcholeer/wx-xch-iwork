@@ -20,6 +20,9 @@ App({
          title: "项目经验",
          name: "projectExp"
       }, {
+         title: "专业技能",
+         name: "zySkill"
+      },{
          title: "自我评价",
          name: "selfComit"
       }]

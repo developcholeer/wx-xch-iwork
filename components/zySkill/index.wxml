@@ -1,0 +1,6 @@
+<!--components/zySkill/index.wxml-->
+<view class="page-zyskill">
+	<view class="zy-item"  wx:for="{{sources}}">
+		{{item.id+'.'+item.content}}
+	</view>
+</view>

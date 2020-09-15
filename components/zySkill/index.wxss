@@ -1,0 +1,15 @@
+/* components/zySkill/index.wxss */
+.page-zyskill{
+    color: #666;
+    font-size: 24rpx;
+    text-align: justify;
+    word-wrap: break-word;
+    word-break: break-all;
+    line-height: 30rpx;
+}
+.zy-item{
+    margin-bottom: 8rpx;
+}
+.zy-item:last-child{
+    margin:0
+}

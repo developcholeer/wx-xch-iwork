@@ -1,8 +1,9 @@
 {
   "usingComponents": {   
-     "baseInfo":"/components/baseInfo/index",
+    "baseInfo":"/components/baseInfo/index",
     "educateExp":"/components/educateExp/index",
     "mainSkill":"/components/mainSkill/index",
+    "zySkill":"/components/zySkill/index",
     "workExp":"/components/workExp/index",
     "projectExp":"/components/projectExp/index",
     "selfComit":"/components/selfComit/index",

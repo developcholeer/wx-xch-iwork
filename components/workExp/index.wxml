@@ -1,2 +1,18 @@
 <!--components/workProg/index.wxml-->
-<text>components/workProg/index.wxml</text>
+<view class="work-list" wx:for="{{workData}}" wx:key="item">
+	<view class="work-name">
+		<image src="../../img/icon_company.png" class="icon-company"></image>
+		<text class="company">{{item.name}}</text>
+		<text>{{item.date}}</text>
+	</view>
+	<view class="work-desc">
+		<!-- <view class="label">工作描述；</view> -->
+		<!-- <view class="desc">
+           <view wx:for="{{item.desc}}" wx:for-item="work">
+           {{work.id+'.'+work.contend}}
+           </view>
+      </view> -->
+	</view>
+	<view>
+	</view>
+</view>

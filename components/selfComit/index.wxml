@@ -1,2 +1,5 @@
 <!--components/selfComit/index.wxml-->
-<text>components/selfComit/index.wxml</text>
+<view class="self">
+	<view>1.学习能力强，善于发现、解决问题；</view>
+	<view>2.责任感强，较强的团队意识，沟通表达能力良好；</view>
+</view>
